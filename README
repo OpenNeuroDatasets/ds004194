@@ -8,7 +8,7 @@ Please contact Iris Groen (i.i.a.groen@uva.nl, https://orcid.org/0000-0002-5536-
 
 - Practical information to access the data
 
-Processed data and model fits reported in Groen et al., (2022) are available in derivatives/Groenetal2022TemporalDynamicsECoG as matlab .mat files. Matlab code to load, process and plot these data (including 3D renderings of the participants surface reconstructions and electrode positions) is available in https://github.com/irisgroen/temporalECoG. This repository has dependencies on other Matlab toolboxes (e.g., FieldTrip). See instructions on Github for relevant links and guidelines. 
+Processed data and model fits reported in Groen et al., (2022) are available in derivatives/Groenetal2022TemporalDynamicsECoG as matlab .mat files. Matlab code to load, process and plot these data (including 3D renderings of the participant's surface reconstructions and electrode positions) is available in https://github.com/irisgroen/temporalECoG. This repository has dependencies on other Matlab toolboxes (e.g., FieldTrip). See instructions on Github for relevant links and guidelines. 
 
 ## Overview
 
