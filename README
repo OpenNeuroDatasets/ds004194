@@ -1,37 +1,35 @@
-# README
-
 ## Details related to access to the data
 
-- [ ] Contact person
+- Contact person
 
 Please contact Iris Groen (i.i.a.groen@uva.nl, https://orcid.org/
 0000-0002-5536-6128) for more information.
 
 Please see Groen et al., (2022) https://doi.org/10.1101/2021.08.08.455547 for more details on the data collection and preprocessing.
 
-- [ ] Practical information to access the data
+- Practical information to access the data
 
 The processed data and temporal model fits reported in Groen et al., (2022) are available in derivatives/Groenetal2022TemporalDynamicsECoG as matlab .mat files. Matlab code to load and plot these data is available in https://github.com/irisgroen/temporalECoG. This repository has a few dependencies on other Matlab toolboxes (e.g., FieldTrip, Winawerlab ECoG_utils toolbox). See instructions on Github for relevant links and guidelines. 
 
 ## Overview
 
-- [ ] Project name (if relevant)
+- Project name (if relevant)
 
 Visual ECoG dataset
 
-- [ ] Year(s) that the project ran
+- Year(s) that the project ran
 
 Data were collected between 2017-2020. Exact recording dates have been scrubbed for anonymization purposes.
 
-- [ ] Brief overview of the tasks in the experiment
+- Brief overview of the tasks in the experiment
 
 Participants viewed grayscale visual stimuli that varied systematically in temporal or spatial properties (See 'Independent Variables' below for more details). In all tasks, participants were instructed to fixate a cross or point in the center of the screen and monitor it for a color change, i.e. to perform a stimulus-orthogonal task (See the task-specific _events.json files, e.g., task-prf_events.json, for further details).
 
-- [ ] Description of the contents of the dataset
+- Description of the contents of the dataset
 
 The data consists of cortical iEEG recordings in epilepsy patients in response to visual stimulation. There are 11 patients in total who performed a varying number of tasks and runs. Patients were implanted with standard clinical surface (grid) and depth electrodes. Two patients were additionally implanted with a high-density research grid. In addition to the ieeg recordings, pre-implantation MRI T1 scans are provided for the purpose of localizing electrodes. 
 
-- [ ] Independent variables
+- Independent variables
 
 The data are divided in 4 different sets of stimulus types or events:
 
@@ -42,7 +40,7 @@ The data are divided in 4 different sets of stimulus types or events:
 
 Participant-, task- and run-specific stimuli are provided in the /stimuli folder as matlab .mat files. 
 
-- [ ] Dependent variables
+- Dependent variables
 
 The main BIDS folder contains the raw voltage data, split up in individual task runs. 
 The /derivatives/ECoGCAR folder contains common-average-referenced version of the data. 
@@ -50,7 +48,7 @@ The /derivatives/ECoGBroadband folder contains time-varying broadband responses 
 The /derivatives/freesurfer folder contains surface reconstructions of each participant's T1, along with retinotopic atlas files. 
 The /derivatives/Groen2022TemporalDynamicsECoG contains preprocessed data and model fits that can be used to reproduce the results reported in Groen et al., (2022).
 
-- [ ] Quality assessment of the data
+- Quality assessment of the data
 
 Data quality and number of trials per subjects varies considerably across patients, for various reasons.
 
@@ -64,31 +62,31 @@ All patients included in this dataset have sufficiently good responses in some e
 
 ## Methods
 
-- [ ] Subjects
+- Subjects
 
 All participants were epilepsy patients who were undergoing ECoG for the purpose of monitoring seizures.
 Participants were included if their implantation covered parts of visual cortex and if they consented to participate in research.
 
-- [ ] Apparatus
+- Apparatus
 
 Data were collected in a clinical setting, i.e. at bedside in the patient's hospital room. Information about iEEG recording apparatus is provided the meta data for each patient. Information about the visual stimulation equipment and behavioral response recordings are provided in Groen et al., (2022). 
 
-- [ ] Experimental location
+- Experimental location
 
 Data were collected at NYU University Langone Hospital (New York, USA) or at University Medican Center Utrecht (The Netherlands).
 
-- [ ] Missing data
+- Missing data
 
 Stimulus files are m issing for a few runs of sub-02. These are marked as N/A in the associated event files.
 
-### Notes
+## Notes
 
 Further participant-specific notes:
 
-* For sub-03 and sub-04 the spatial pattern and temporal pattern stimuli are combined in the soc task runs, for the remaining participants these stimuli are split in the spatialpattern and temporalpattern task runs.
+- For sub-03 and sub-04 the spatial pattern and temporal pattern stimuli are combined in the soc task runs, for the remaining participants these stimuli are split in the spatialpattern and temporalpattern task runs.
 
-* The pRF task from sub-04 has different prf parameters (bar duration and gap). 
+- The pRF task from sub-04 has different prf parameters (bar duration and gap). 
 
-* The first to runs of the pRF task from sub-05 are not of good quality (participant repeatedly broke fixation).
+- The first to runs of the pRF task from sub-05 are not of good quality (participant repeatedly broke fixation).
 
-* Note that all stimuli and stimulus parameters can be found in the participant-specific stimulus *.mat files. 
+- Note that all stimuli and stimulus parameters can be found in the participant-specific stimulus *.mat files. 
