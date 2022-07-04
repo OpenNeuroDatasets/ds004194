@@ -2,14 +2,13 @@
 
 - Contact person
 
-Please contact Iris Groen (i.i.a.groen@uva.nl, https://orcid.org/
-0000-0002-5536-6128) for more information.
+Please contact Iris Groen (i.i.a.groen@uva.nl, https://orcid.org/0000-0002-5536-6128) for more information.
 
 Please see Groen et al., (2022) https://doi.org/10.1101/2021.08.08.455547 for more details on the data collection and preprocessing.
 
 - Practical information to access the data
 
-The processed data and temporal model fits reported in Groen et al., (2022) are available in derivatives/Groenetal2022TemporalDynamicsECoG as matlab .mat files. Matlab code to load and plot these data is available in https://github.com/irisgroen/temporalECoG. This repository has a few dependencies on other Matlab toolboxes (e.g., FieldTrip, Winawerlab ECoG_utils toolbox). See instructions on Github for relevant links and guidelines. 
+Processed data and temporal model fits reported in Groen et al., (2022) are made available in derivatives/Groenetal2022TemporalDynamicsECoG as matlab .mat files. Matlab code to load and plot these data is available in https://github.com/irisgroen/temporalECoG. This repository has a few dependencies on other Matlab toolboxes (e.g., FieldTrip, Winawerlab ECoG_utils toolbox). See instructions on Github for relevant links and guidelines. 
 
 ## Overview
 
@@ -23,7 +22,7 @@ Data were collected between 2017-2020. Exact recording dates have been scrubbed 
 
 - Brief overview of the tasks in the experiment
 
-Participants viewed grayscale visual stimuli that varied systematically in temporal or spatial properties (See 'Independent Variables' below for more details). In all tasks, participants were instructed to fixate a cross or point in the center of the screen and monitor it for a color change, i.e. to perform a stimulus-orthogonal task (See the task-specific _events.json files, e.g., task-prf_events.json, for further details).
+Participants viewed grayscale visual stimuli that varied systematically in temporal or spatial properties (see 'Independent Variables' below for more details). In all tasks, participants were instructed to fixate a cross or point in the center of the screen and monitor it for a color change, i.e. to perform a stimulus-orthogonal task (see the task-specific _events.json files, e.g., task-prf_events.json, for further details).
 
 - Description of the contents of the dataset
 
