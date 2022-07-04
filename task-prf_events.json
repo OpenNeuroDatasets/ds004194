@@ -1,0 +1,40 @@
+{
+    "onset": {
+        "Description": "Onset of the event",
+        "Units": "seconds"
+    },
+    "duration": {
+        "Description": "Duration of the event",
+        "Units": "seconds"
+    },
+    "ISI": {
+        "Description": "Inter-stimulus interval (temporal gap between bar stimuli)",
+        "Units": "seconds"
+    },
+    "trial_type": {
+        "Description": "Categorical code referring to stimulus condition",
+	"Levels": {
+            "3:30": "Vertical bars (left-to-right)",
+            "31:58": "Horizontal bars (up-to-down)",
+	    "69:70": "Diagonal bars: right down-left up",
+	    "71:82": "Diagonal bars: left down-right up",
+	    "83:94": "Diagonal bars: left up-right down",
+	    "95:106": "Diagonal bars: right up-left down"
+        }
+    },
+    "trial_name": {
+        "Description": "Description of the stimulus category that was shown during this experiment (see trial_type)"
+    },
+    "stim_file": {
+        "Description": "Name of the stimulus mat file that was shown during this trial of the experiment"
+    }, 
+    "stim_file_index": {
+    	"Description": "Index of the stimulus in the images field of the stimulus mat file"
+	},
+    "event_sample": {
+        "Description": "Onset of event in samples"
+    },
+    "task_name": {
+        "Description": "Name of task"
+    }
+}
