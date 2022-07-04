@@ -8,15 +8,15 @@ Please contact Iris Groen (i.i.a.groen@uva.nl, https://orcid.org/0000-0002-5536-
 
 - Practical information to access the data
 
-Processed data and temporal model fits reported in Groen et al., (2022) are made available in derivatives/Groenetal2022TemporalDynamicsECoG as matlab .mat files. Matlab code to load, process and plot these data is available in https://github.com/irisgroen/temporalECoG. This repository has a few dependencies on other Matlab toolboxes (e.g., FieldTrip). See instructions on Github for relevant links and guidelines. 
+Processed data and model fits reported in Groen et al., (2022) are available in derivatives/Groenetal2022TemporalDynamicsECoG as matlab .mat files. Matlab code to load, process and plot these data (including renderings of the participants surface reconstructions and electrode positions) is available in https://github.com/irisgroen/temporalECoG. This repository has dependencies on other Matlab toolboxes (e.g., FieldTrip). See instructions on Github for relevant links and guidelines. 
 
 ## Overview
 
-- Project name (if relevant)
+- Project name
 
 Visual ECoG dataset
 
-- Year(s) that the project ran
+- Years that the project ran
 
 Data were collected between 2017-2020. Exact recording dates have been scrubbed for anonymization purposes.
 
@@ -32,9 +32,9 @@ The data consists of cortical iEEG recordings in 11 epilepsy patients in respons
 
 The data are divided in 4 different sets of stimulus types or events:
 
-1. prf: grayscale, oriented bar stimuli that were swept across the screen in a fixed order for the purpose of estimating spatial population receptive fields (pRFs).
-2. spatialpattern: grayscale, centrally presented pattern stimuli (~16 degree of visual angle) consisting of curved, band-pass filtered lines that were systematically varied in level of contrast and density, as well as various oriented grating stimuli.
-3. temporalpattern: grayscale, centrally presented pattern stimuli (~16 degree of visual angle) consisting of curved, band-pass filtered lines that were systematically varied in temporal duration and interval.
+1. prf: grayscale, oriented bar stimuli consisting of curved, band-pass filtered lines that were swept across the screen (up to (~16 degree of visual angle) in a fixed order for the purpose of estimating spatial population receptive fields (pRFs).
+2. spatialpattern: grayscale, centrally presented pattern stimuli (~16 degree of visual angle diameter) consisting of curved, band-pass filtered lines that were systematically varied in level of contrast and density, as well as various oriented grating stimuli.
+3. temporalpattern: grayscale, centrally presented pattern stimuli (~16 degree of visual angle diameter) consisting of curved, band-pass filtered lines that were systematically varied in temporal duration and interval.
 4. soc: combination of the spatialpattern and temporalpattern stimuli. 
 
 Participant-, task- and run-specific stimuli are provided in the /stimuli folder as matlab .mat files. 
@@ -51,9 +51,9 @@ The /derivatives/Groen2022TemporalDynamicsECoG contains preprocessed data and mo
 
 Data quality and number of trials per subjects varies considerably across patients, for various reasons.
 
-First, for each recording session, attempts were made to optimize the environment for running visual experiments; e.g. room illumination was stabilized as much as possible by closing blinds when available, and interference from medical staff or visitors was minimized. However, it was not possible to equate this with great precision across patients and sessions/runs. 
+First, for each recording session, attempts were made to optimize the environment for running visual experiments; e.g. room illumination was stabilized as much as possible by closing blinds when available, the visual display was calibrated (for most patients), and interference from medical staff or visitors was minimized. However, it was not possible to equate this with great precision across patients and sessions/runs. 
 
-Second, implantations were determined based on clinical needs and electrode locations thus vary across participants. The strength and robustness of the neural responses varies greatly with the electrode location (e.g. early vs higher-level visual cortex), as well as with uncontrolled factors such as how well the electrode made contact with the cortex and whether it was primarily situated on grey matter (surface/grid electrodes) or could be located in white matter (some depth electrodes). Electrodes that were marked as containing epileptic activity by clinicians, or that did not have good signal based on visual inspection of the raw data are marked as 'bad' in the channels.tsv files. 
+Second, implantations were determined based on clinical needs and electrode locations therefore vary across participants. The strength and robustness of the neural responses varies greatly with the electrode location (e.g. early vs higher-level visual cortex), as well as with uncontrolled factors such as how well the electrode made contact with the cortex and whether it was primarily situated on grey matter (surface/grid electrodes) or could be located in white matter (some depth electrodes). Electrodes that were marked as containing epileptic activity by clinicians, or that did not have good signal based on visual inspection of the raw data, are marked as 'bad' in the channels.tsv files. 
 
 Third, patients varied greatly in their cognitive abilities and mental/medical state, which affected their ability to follow task instructions, e.g. to remain alert and fixation. Some patients were able to perform repeated runs of multiple tasks across multiple sessions, while others only managed to do a few runs. 
 
@@ -86,5 +86,7 @@ Further participant-specific notes:
 - The pRF task from sub-04 has different prf parameters (bar duration and gap). 
 
 - The first two runs of the pRF task from sub-05 are not of good quality (participant repeatedly broke fixation).
+
+- Participants sub-10 and sub-11 have high density grids in addition to clinical grids.
 
 - Note that all stimuli and stimulus parameters can be found in the participant-specific stimulus *.mat files. 
