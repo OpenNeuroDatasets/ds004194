@@ -85,7 +85,7 @@ Further participant-specific notes:
 
 - The pRF task from sub-04 has different prf parameters (bar duration and gap). 
 
-- The first two runs of the pRF task from sub-05 are not of good quality (participant repeatedly broke fixation).
+- The first two runs of the pRF task from sub-05 are not of good quality (participant repeatedly broke fixation). In addition, the triggers in all pRF runs from sub-05 are not correct due to a stimulus coding problem and will need to be re-interpolated if one wishes to use these data.
 
 - Participants sub-10 and sub-11 have high density grids in addition to clinical grids.
 
