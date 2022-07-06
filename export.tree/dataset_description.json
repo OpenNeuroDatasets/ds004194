@@ -1,0 +1,32 @@
+{
+    "Name": "Visual ECoG dataset",
+    "BIDSVersion": "1.9.2",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "Iris Groen",
+        "Giovanni Piantoni",
+        "Stephanie Montenegro",
+        "Adeen Flinker",
+        "Sasha Devore",
+        "Orrin Devinsky",
+        "Werner Doyle",
+        "Patricia Dugan",
+        "Daniel Friedman",
+        "Nick Ramsey",
+        "Natalia Petridou",
+        "Jonathan Winawer"
+    ],
+    "Acknowledgements": "Other contributors to this dataset: Ken Yuasa, Dora Hermes",
+    "HowToAcknowledge": "When using this dataset, please cite Groen et al., (see ReferencesAndLinks)",
+    "Funding": [
+        "This work was funded by BRAIN Initiative, the National Institute of Mental Health of the National Institutes of Health under Award Number R01MH111417"
+    ],
+    "EthicsApprovals": [
+        "The study was approved by the NYU Grossman School of Medicine Institutional Review Board and the ethical committee of the University Medical Center Utrecht, in accordance with the Declaration of Helsinki (2013)"
+    ],
+    "ReferencesAndLinks": [
+        "Groen IIA, Piantoni G, Montenegro S, Flinker A, Devore S, Devinsky O, Doyle W, Dugan P, Friedman D, Ramsey N, Petridou N, Winawer JA. Temporal dynamics of neural responses in human visual cortex. https://doi.org/10.1101/2021.08.08.455547"
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds004194.v1.0.0"
+}
