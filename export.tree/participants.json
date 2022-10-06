@@ -1,0 +1,42 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "age": {
+        "Description": "Age of the participant at time of testing",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "Female": "Female",
+            "Male": "Male"
+        }
+    },
+    "group": {
+        "Description": "Group participant belongs to",
+        "Levels": {
+            "Patient": "Patient",
+            "Control": "Control"
+        }
+    },
+    "site": {
+        "Description": "Site where data was acquired",
+        "Levels": {
+            "NYU": "New York University School of Medicine",
+            "UMCU": "Utrecht University Medical Center"
+        }
+    },
+    "high_density_grid": {
+        "Description": "Whether the patient had a high density grid implanted"
+    },
+    "visual": {
+        "Description": "Whether participant performed visual BAIR tasks"
+    },
+    "motor": {
+        "Description": "Whether participant performed motor BAIR tasks"
+    },
+    "tactile": {
+        "Description": "Whether participant performed tactile BAIR tasks"
+    }
+}

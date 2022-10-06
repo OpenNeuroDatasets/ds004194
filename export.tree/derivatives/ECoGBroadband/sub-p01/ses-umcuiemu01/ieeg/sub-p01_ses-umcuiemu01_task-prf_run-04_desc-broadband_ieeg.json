@@ -1,0 +1,21 @@
+{
+    "InstitutionName": "University Medical Center Utrecht",
+    "InstitutionAddress": "Heidelberglaan 100, 3584 CX Utrecht, the Netherlands",
+    "Manufacturer": "Micromed",
+    "TaskName": "prf",
+    "TaskDescription": "",
+    "SamplingFrequency": 512,
+    "PowerLineFrequency": 50,
+    "SoftwareFilters": "n/a",
+    "ECOGChannelCount": 56,
+    "SEEGChannelCount": 8,
+    "EOGChannelCount": 1,
+    "ECGChannelCount": 1,
+    "EMGChannelCount": 5,
+    "MiscChannelCount": 1,
+    "TriggerChannelCount": 2,
+    "iEEGReference": "A common average reference (CAR) was computed separately for each group of good channels and regressed out of each channel.",
+    "RecordingDuration": 200,
+    "RecordingType": "continuous",
+    "ElectricalStimulation": false
+}
