@@ -1,7 +1,0 @@
-{
-  "iEEGCoordinateSystem": "ACPC",
-  "iEEGCoordinateUnits": "mm",
-  "iEEGCoordinateProcessingDescription": "surface_projection",
-  "iEEGCoordinateProcessingReference": "PMID: 19836416",
-  "IntendedFor": "/sub-umcuchaam/ses-umcu3t1/anat/sub-umcuchaam_ses-umcu3t1_run-1_T1w.nii.gz"
-}
