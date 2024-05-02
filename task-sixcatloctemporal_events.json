@@ -1,0 +1,40 @@
+{
+    "onset": {
+        "Description": "Onset of the event",
+        "Units": "seconds"
+    },
+    "duration": {
+        "Description": "Duration of the event",
+        "Units": "seconds"
+    },
+    "ISI": {
+        "Description": "Interval between two-pulse stimuli. Applies only to TWO-PULSE condition",
+        "Units": "seconds"
+    },
+    "trial_type": {
+        "Description": "Categorical code referring to stimulus category",
+	"Levels": {
+            "1": "BODIES (color image of hands/feet on gray background)",
+            "2": "BUILDINGS (color image of building on gray background)",
+            "3": "FACES (color image of a face on gray background)",
+            "4": "OBJECTS (color image of man-made or natural object on gray background)",
+            "5": "SCENES (color image of a scene)",
+            "6": "SCRAMBLED (scrambled blocks of object classes on gray background)"
+        }
+    },
+    "trial_name": {
+        "Description": "Description of the stimulus category and which temporal condition it was shown in"
+    },
+    "stim_file": {
+        "Description": "Name of the stimulus mat file that was shown during this trial of the experiment"
+    }, 
+    "stim_file_index": {
+    	"Description": "Index of the stimulus in the images field of the stimulus mat file"
+	},
+    "event_sample": {
+        "Description": "Onset of event in samples"
+    },
+    "task_name": {
+        "Description": "Name of task"
+    }
+}
