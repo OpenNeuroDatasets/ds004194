@@ -2,13 +2,23 @@
 
 - Contact person
 
-Please see Groen IIA, Piantoni G, Montenegro S, Flinker A, Devore S, Devinsky O, Doyle W, Dugan P, Friedman D, Ramsey N, Petridou N, Winawer JA (2022) Temporal dynamics of neural responses in human visual cortex. The Journal of Neuroscience 42(40):7562-7580 (https://doi.org/10.1523/JNEUROSCI.1812-21.2022) for more details on the data collection and preprocessing.
-
 Please contact Iris Groen (i.i.a.groen@uva.nl, https://orcid.org/0000-0002-5536-6128) for more information.
+
+Please see the following papers for more details on the data collection and preprocessing: 
+
+Groen IIA, Piantoni G, Montenegro S, Flinker A, Devore S, Devinsky O, Doyle W, Dugan P, Friedman D, Ramsey N, Petridou N, Winawer JA (2022) Temporal dynamics of neural responses in human visual cortex. The Journal of Neuroscience 42(40):7562-7580 (https://doi.org/10.1523/JNEUROSCI.1812-21.2022) 
+
+Yuasa K, Groen IIA, Piantoni G, Montenegro S, Flinker A, Devore S, Devinsky O, Doyle W, Dugan P, Friedman D, Ramsey N, Petridou N, Winawer JA. Precise Spatial Tuning of Visually Driven Alpha Oscillations in Human Visual Cortex. eLife12:RP90387 https://doi.org/10.1101/2023.02.11.528137
+
+Brands AM, Devore S, Devinsky O, Doyle W, Flinker A, Friedman D, Dugan P, Winawer JA, Groen IIA (2024). Temporal dynamics of short-term neural adaptation in human visual cortex. https://doi.org/10.1101/2023.09.13.557378
 
 - Practical information to access the data
 
 Processed data and model fits reported in Groen et al., (2022) are available in derivatives/Groenetal2022TemporalDynamicsECoG as matlab .mat files. Matlab code to load, process and plot these data (including 3D renderings of the participant's surface reconstructions and electrode positions) is available in https://github.com/irisgroen/temporalECoG. This repository has dependencies on other Matlab toolboxes (e.g., FieldTrip). See instructions on Github for relevant links and guidelines. 
+
+Processed data and model fits reported in Yuasa et al., (2023) are available in the Github repositories described in the paper.
+
+Processed data and model fits reported in Brands et al., (2024) are available in derivatives/Brandsetal2024TemporalAdaptationECoGCategories as python .py files. Python code to process and analyze these data is available in the Github repositories described in the paper.
 
 ## Overview
 
