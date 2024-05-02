@@ -21,12 +21,9 @@
     "Jonathan Winawer"
     ],
     "Acknowledgements": "Other contributors to this dataset: Dora Hermes",
-    "HowToAcknowledge": 
-    [
-        "Please cite Groen et al., (2022) when using the spatial pattern or temporal pattern task data. (see ReferencesAndLinks)",
+    "HowToAcknowledge": ["Please cite Groen et al., (2022) when using the spatial pattern or temporal pattern task data. (see ReferencesAndLinks)",
         "Please cite Yuasa et al., (2023) when using the prf task data.",
-        "Please cite Brands et al., (2024) when using the six category localizer task data."
-    ],
+        "Please cite Brands et al., (2024) when using the six category localizer task data."],
     "Funding": ["This work was funded by BRAIN Initiative, the National Institute of Mental Health of the National Institutes of Health under Award Number R01MH111417"],
     "EthicsApprovals": ["The study was approved by the NYU Grossman School of Medicine Institutional Review Board and the ethical committee of the University Medical Center Utrecht, in accordance with the Declaration of Helsinki (2013)"],
     "ReferencesAndLinks": 
