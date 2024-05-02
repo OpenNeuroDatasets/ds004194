@@ -14,7 +14,7 @@ Brands AM, Devore S, Devinsky O, Doyle W, Flinker A, Friedman D, Dugan P, Winawe
 
 - Practical information to access the data
 
-Processed data and model fits reported in Groen et al., (2022) are available in derivatives/Groenetal2022TemporalDynamicsECoG as matlab .mat files. Matlab code to load, process and plot these data (including 3D renderings of the participant's surface reconstructions and electrode positions) is available in https://github.com/irisgroen/temporalECoG. This repository has dependencies on other Matlab toolboxes (e.g., FieldTrip). See instructions on Github for relevant links and guidelines. 
+Processed data and model fits reported in Groen et al., (2022) are available in derivatives/Groenetal2022TemporalDynamicsECoG as matlab .mat files. Matlab code to load, process and plot these data (including 3D renderings of the participant's surface reconstructions and electrode positions) is available in https://github.com/WinawerLab/ECoG_utils and https://github.com/irisgroen/temporalECoG. These repositories have dependencies on other Matlab toolboxes (e.g., FieldTrip). See instructions on Github for relevant links and guidelines. 
 
 Processed data and model fits reported in Yuasa et al., (2023) are available in the Github repositories described in the paper.
 
@@ -32,20 +32,24 @@ Data were collected between 2017-2020. Exact recording dates have been scrubbed 
 
 - Brief overview of the tasks in the experiment
 
-Participants viewed grayscale visual pattern stimuli that were varied in temporal or spatial properties (see 'Independent Variables' below for more details). In all tasks, participants were instructed to fixate a cross or point in the center of the screen and monitor it for a color change, i.e. to perform a stimulus-orthogonal task (see the task-specific _events.json files, e.g., task-prf_events.json, for further details).
+Participants sub-p01 to sub-p11 viewed grayscale visual pattern stimuli that were varied in temporal or spatial properties. Participans sub-p11 to sub-p14 additionally saw color images of different image classes (faces, bodies, buildings, objects, scenes,  and scrambled) that were varied in temporal properties. See 'Independent Variables' below for more details.
+
+In all tasks, participants were instructed to fixate a cross or point in the center of the screen and monitor it for a color change, i.e. to perform a stimulus-orthogonal task (see the task-specific _events.json files, e.g., task-prf_events.json, for further details).
 
 - Description of the contents of the dataset
 
-The data consists of cortical iEEG recordings in 11 epilepsy patients in response to visual stimulation. Patients were implanted with standard clinical surface (grid) and depth electrodes. Two patients were additionally implanted with a high-density research grid. In addition to the ieeg recordings, pre-implantation MRI T1 scans are provided for the purpose of localizing electrodes. Participants performed a varying number of tasks and runs. 
+The data consists of cortical iEEG recordings in 14 epilepsy patients in response to visual stimulation. Patients were implanted with standard clinical surface (grid) and depth electrodes. Two patients were additionally implanted with a high-density research grid. In addition to the ieeg recordings, pre-implantation MRI T1 scans are provided for the purpose of localizing electrodes. Participants performed a varying number of tasks and runs. 
 
 - Independent variables
 
-The data are divided in 4 different sets of stimulus types or events:
+The data are divided in 6 different sets of stimulus types or events:
 
 1. prf: grayscale, oriented bar stimuli consisting of curved, band-pass filtered lines that were swept across the screen (up to (~16 degree of visual angle) in a fixed order for the purpose of estimating spatial population receptive fields (pRFs).
 2. spatialpattern: grayscale, centrally presented pattern stimuli (~16 degree of visual angle diameter) consisting of curved, band-pass filtered lines that were systematically varied in level of contrast and density, as well as various oriented grating stimuli.
 3. temporalpattern: grayscale, centrally presented pattern stimuli (~16 degree of visual angle diameter) consisting of curved, band-pass filtered lines that were systematically varied in temporal duration and interval.
 4. soc: combination of the spatialpattern and temporalpattern stimuli. 
+5. sixcatloctemporal:
+6. sixcatlocisidiff/sixcatlocdiffisi:
 
 Participant-, task- and run-specific stimuli are provided in the /stimuli folder as matlab .mat files. 
 
