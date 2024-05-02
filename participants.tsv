@@ -10,3 +10,7 @@ sub-p08	47	Male	Patient	NYU	no	yes	no	no
 sub-p09	25	Male	Patient	NYU	no	yes	no	no
 sub-p10	23	Male	Patient	NYU	yes	yes	no	no
 sub-p11	19	Female	Patient	NYU	yes	yes	no	no
+sub-p11	19	Female	patient	NYU	yes	yes	no	no
+sub-p12	42	Male	patient	NYU	no	yes	no	no
+sub-p13	22	Female	patient	NYU	no	yes	no	no
+sub-p14	32	Female	patient	NYU	no	yes	no	no
