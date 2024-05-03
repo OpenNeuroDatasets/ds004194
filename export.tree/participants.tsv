@@ -1,0 +1,16 @@
+participant_id	age	sex	group	site	high_density_grid	visual	motor	tactile
+sub-p01	30	Female	Patient	UMCU	no	yes	no	no
+sub-p02	18	Female	Patient	UMCU	no	yes	no	no
+sub-p03	27	Male	Patient	NYU	no	yes	no	no
+sub-p04	28	Male	Patient	NYU	no	yes	no	no
+sub-p05	31	Female	Patient	NYU	no	yes	no	no
+sub-p06	19	Female	Patient	NYU	no	yes	no	no
+sub-p07	41	Female	Patient	NYU	no	yes	no	no
+sub-p08	47	Male	Patient	NYU	no	yes	no	no
+sub-p09	25	Male	Patient	NYU	no	yes	no	no
+sub-p10	23	Male	Patient	NYU	yes	yes	no	no
+sub-p11	19	Female	Patient	NYU	yes	yes	no	no
+sub-p11	19	Female	patient	NYU	yes	yes	no	no
+sub-p12	42	Male	patient	NYU	no	yes	no	no
+sub-p13	22	Female	patient	NYU	no	yes	no	no
+sub-p14	32	Female	patient	NYU	no	yes	no	no

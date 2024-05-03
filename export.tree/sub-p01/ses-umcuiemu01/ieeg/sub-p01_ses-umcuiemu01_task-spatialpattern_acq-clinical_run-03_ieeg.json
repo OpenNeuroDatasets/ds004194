@@ -1,0 +1,21 @@
+{
+  "InstitutionName": "University Medical Center Utrecht",
+  "InstitutionAddress": "Heidelberglaan 100, 3584 CX Utrecht, the Netherlands",
+  "Manufacturer": "Micromed",
+  "TaskName": "spatialpattern",
+  "TaskDescription": "Size: 1920x1080 (black bars on top and bottom but ok) \"n Distance to screen: 75cm (measured); For all the bair tasks in the morning, she paid attention. Pt was a bit tired after chatting with friends",
+  "SamplingFrequency": 512,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": "n/a",
+  "ECOGChannelCount": 56,
+  "SEEGChannelCount": 8,
+  "EOGChannelCount": 1,
+  "ECGChannelCount": 1,
+  "EMGChannelCount": 5,
+  "MiscChannelCount": 1,
+  "TriggerChannelCount": 2,
+  "iEEGReference": "n/a",
+  "RecordingDuration": 90.0,
+  "RecordingType": "continuous",
+  "ElectricalStimulation": false
+}
