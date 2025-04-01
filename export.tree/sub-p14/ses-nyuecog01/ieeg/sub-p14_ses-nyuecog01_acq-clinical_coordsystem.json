@@ -1,0 +1,8 @@
+{
+    "iEEGCoordinateSystem": "Other",
+    "iEEGCoordinateUnits": "mm",
+    "iEEGCoordinateSystemDescription": "T1",
+    "IntendedFor": "sub-p14/ses-som3t01/anat/sub-p14_ses-som3t01_acq-clinical_run-01_T1w.nii.gz",
+    "iEEGCoordinateProcessingDescription": "surface_projection",
+    "iEEGCoordinateProcessingReference": "PMID: 22759995"
+}
